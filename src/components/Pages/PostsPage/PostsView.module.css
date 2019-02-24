@@ -1,0 +1,73 @@
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  width: 200px;
+  width: 800px;
+  background-color: #e8eff9;
+  padding: 10px;
+  margin: 0 20px 40px 0;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.textBlock {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-bottom: 40px;
+}
+
+.text {
+  width: 280px;
+  height: 60px;
+  resize: none;
+}
+
+.btn {
+  display: block;
+  border: none;
+  width: 140px;
+  height: 50px;
+  background: teal;
+}
+
+.btnDelete {
+  display: block;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background: teal;
+}
+
+.link {
+  display: block;
+  min-width: 350px;
+  min-height: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.selectText {
+  font-size: 18px;
+  font-weight: 600;
+}
